@@ -14,7 +14,15 @@ To write a Python program that filters out and returns all elements from a list 
 5. Print the final filtered list.
 
 ## 🧾 Program
-Add code here
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+z=[]
+s=set("e")
+for i in items:
+    if not s &set(i):
+        z.append(i)
+print(z)        
 ## Output
+<img width="1168" height="196" alt="image" src="https://github.com/user-attachments/assets/a453a4db-aa07-4e2b-a09b-fc60501b1125" />
 
 ## Result
+Thus the Python program that filters out and returns all elements from a list **that do not contain the letter `'e'`**, using **regular expressions (regex)** was successfully completed
